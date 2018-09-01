@@ -17,8 +17,8 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 
 ## Example
 * View ☛ [Example WebGL](https://xelfia.github.io/XELF.FileReceiver.WebGL)
-  * You can drop a local file into the WebGL frame.
-  * `SIZE:` will show the size [bytes] of your file.
+  * You can drop your local file into the WebGL frame.
+  * `SIZE:` will show the size [bytes] of the file.
 
 ## How to Customize
 1. Open `FileReceiver`/`Example`/`Scenes`/`SampleScene.unity`
