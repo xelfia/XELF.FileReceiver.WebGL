@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | XELF.FileReceiver.WebGL</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/docs.json");
+        function load() {
+            const gameContainer = document.getElementById('gameContainer');
+            gameContainer.addEventListener('dragover', (event) => {
+                event.preventDefault();
+            });
+            gameContainer.addEventListener('drop', (event) => {
+                event.preventDefault();
+                const files = event.dataTransfer.files;
+                const first = files[0];
+                gameInstance.SendMessage("FileReceiver", "FileSelected", window.URL.createObjectURL(first), first);
+            });
+        }
+    </script>
+    <!--
+        XELF.FileReceiver.WebGL version 0.1.0 ©2018 XELF
+        https://github.com/xelfia/XELF.FileReceiver.WebGL
+        The MIT License (MIT)
+    -->
+</head>
+
+<body onload="load()">
+    <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "name": "FileReceiver.Example",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
