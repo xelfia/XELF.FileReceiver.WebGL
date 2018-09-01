@@ -21,14 +21,14 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 ## Example
 
 * View ☛ [Example WebGL](https://xelfia.github.io/XELF.FileReceiver.WebGL)
-** You can drop local file into the WebGL frame.
-** `SIZE:` will show size [bytes] of your file.
+  * You can drop local file into the WebGL frame.
+  * `SIZE:` will show size [bytes] of your file.
 
 ## How to Customize
 
-1. See `FileReceiver`/`Example`/`Scenes`/`SampleScene.unity`
+1. Open `FileReceiver`/`Example`/`Scenes`/`SampleScene.unity`
 2. Modify it or clone it.
-3. Create your script file by copying FileReceiver.cs or FileReceiverStats.cs
+3. Create your script file by copying [`FileReceiver.cs`](Assets/FileReceiver/Scripts/FileReceiver.cs) or [`FileReceiverStats.cs`](Assets/FileReceiver/Example/Scripts/FileReceiverStats.cs).
 4. Here, assumes that you set the file name `MyFileReceiver.cs` and the class name `MyFileReceiver`. 
 5. Add your C# code into `LoadFile` method. (Your turn)
 6. Select the GameObject `FileReceiver` (or create it when a new scene)
