@@ -20,4 +20,4 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 
 ## Example
 
-* View ☛ [Example WebGL](xelfia.github.io/XELF.FileReceiver.WebGL)
+* View ☛ [Example WebGL](https://xelfia.github.io/XELF.FileReceiver.WebGL)
