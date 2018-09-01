@@ -26,7 +26,7 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 3. Create your script file by copying [`FileReceiver.cs`](Assets/FileReceiver/Scripts/FileReceiver.cs) or [`FileReceiverStats.cs`](Assets/FileReceiver/Example/Scripts/FileReceiverStats.cs).
 4. Here, assumes that you set the file name `MyFileReceiver.cs` and the class name `MyFileReceiver`. 
 5. Add your C# code into `LoadFile` method. (Your turn)
-6. Select the GameObject `FileReceiver` (or create it when a new scene)
+6. Select the GameObject named `FileReceiver` (or create it when a new scene)
 7. Add the component `MyFileReceiver` (and remove the components `FileReceiver`/`FileReceiveStats` if it exists)
 8. Open the `Main Menu`:`File`/`Build Settings…`.
 9. Switch `Platform` to `WebGL` (if not set)
