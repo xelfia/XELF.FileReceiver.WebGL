@@ -1,10 +1,10 @@
 # XELF.FileReceiver.WebGL
-Template for a Unity WebGL Player using HTML drag-and-drop interfaces
+Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 
 ## Targeted Scenario
 
 * Using `Unity WebGL Player` (Web)
-* Want to Load a local file selected by the user.
+* Want to **Load a local file selected by the user**.
 * Simple UI: File `Drag and drop` into the frame.
 
 ## Target Environments
@@ -20,4 +20,4 @@ Template for a Unity WebGL Player using HTML drag-and-drop interfaces
 
 ## Example
 
-* View ☛ [Example WebGL](xelfia.githum.io/XELF.FileReceiver.WebGL)
+* View ☛ [Example WebGL](xelfia.github.io/XELF.FileReceiver.WebGL)
