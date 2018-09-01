@@ -22,7 +22,7 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 
 * View ☛ [Example WebGL](https://xelfia.github.io/XELF.FileReceiver.WebGL)
   * You can drop local file into the WebGL frame.
-  * `SIZE:` will show size [bytes] of your file.
+  * `SIZE:` will show the size [bytes] of your file.
 
 ## How to Customize
 
@@ -34,7 +34,7 @@ Template for a `Unity WebGL Player` using `HTML File drag-and-drop` interfaces
 6. Select the GameObject `FileReceiver` (or create it when a new scene)
 7. Add the component `MyFileReceiver` (and remove the components `FileReceiver`/`FileReceiveStats` if it exists)
 8. Open the `Main Menu`:`File`/`Build Settings…`.
-9. Switch Platform to `WebGL` (if not set)
+9. Switch `Platform` to `WebGL` (if not set)
 10. Open `Player Settings…` and switch `PlayerSettings`/`Settings for WebGL`/`WebGL Template`➡`FileReceiver` (if not set)
 10. Push `Build And Run` on `Build Settings`. (and wait building…)
 11. Built WebGL page will open by your web browser.
